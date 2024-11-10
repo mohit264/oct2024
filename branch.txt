@@ -1,0 +1,1 @@
+Adding new file to understand branch is always points to latest commit
