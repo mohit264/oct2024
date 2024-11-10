@@ -1,0 +1,160 @@
+  mkdir git_oct2024
+  cd git_oct2024/
+  clear
+  git hash-object
+  git hash-object "Hello, World!"
+  echo "Hello, World"
+  echo "Hello, World" | git hash-object 
+  echo "Hello, World" | git hash-object --stdin
+  echo "HELLO" | git hash-object --stdin
+  echo "hELLO" | git hash-object --stdin
+  clear
+  echo "Hello, World" | git hash-object --stdin
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  echo "Hello, World" | git hash-object --stdin -w
+  git mohit
+  clear
+  echo "Hello, World" | git hash-object --stdin -w
+  echo "Hello, World" | git hash-object --stdin -w
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  git init
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  echo "Hello, World" | git hash-object --stdin -w
+  clear
+  echo "Hello, World" | git hash-object --stdin -w
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  clear
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  ls
+  ls -a
+  clear
+  git cat-file -p 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  echo "Hello, World" | shasum
+  git cat-file -t 3fa0d4b98289a95a7cd3a45c9545e622718f8d2b
+  echo "blob 12\0Hello, World" | shasum
+  echo -e "blob 12\0Hello, World" | shasum
+  echo -e "blob 13\0Hello, World" | shasum
+  echo "Hello, World" | git hash-object --stdin -w
+  clear
+  echo "Hello, World" | git hash-object --stdin -w
+  echo -e -n "blob 12\0Hello, World" | shasum
+  echo -n "Hello, World" | git hash-object --stdin
+  clear
+  ls -a
+  git add -h
+  clear
+  ls -a
+  git add Git_Init_details.png
+  echo "Hello, World" 
+  echo "Hello, World" > Hello.txt
+  clear
+  git status
+  git add Hello.txt 
+  git commit -m "Added Git Hash object and cat-file visual diagrams and Hello File"
+  git cat-file -t 3b430be
+  clear
+  git cat-file -p 3b430be
+  git cat-file -t 13cf1c1
+  clear
+  git cat-file -p 3b430be
+  git cat-file -p 13cf1c1
+  echo -n "Hello, World" | git hash-object --stdin
+  clear
+  git cat-file -p 13cf1c1
+  echo "Hello, World" | git hash-object --stdin
+  echo "Hello, World" > Hello1.txt
+  echo "Hello, World" > Hello2.txt
+  echo "Hello, World" > Hello3.txt
+  git status
+  echo "Hello, World!" > Hello4.txt
+  git status
+  clear
+  git status
+  git add .
+  git commit -m "Added four new files to understand why git has chosen hashing for storing content"
+  git cat-file -p 22b717a
+  clear
+  git cat-file -p 7a3a00
+  cd ..
+  cd temp1
+  mkdir temp1
+  mkdir temp1
+  mkdir /d/temp1
+  mkdir temp2
+  cd temp2
+  clear
+  echo "Hello, World" | git hash-object --stdin -w
+  cd /d/git_oct2024/
+  clear
+  ls -a
+  git status
+  git log -1
+  clear
+  git cat-file -p 22b717af
+  git cat-file -p 7a3a00e
+  git cat-file -p 3fa0d
+  git cat-file -p 8ab686
+  ls -a
+  clear
+  git status
+  git restore .
+  git status
+  clear
+  history
+  clear
+  git log
+  git log -1
+  clear
+  git log -1
+  git cat-file -p 22b717
+  git log -2
+  clear
+  git cat-file -p 3b430b
+  git cat-file -p 13cf1c12b7d
+  clear
+  git log -1
+  echo "Hello, World" | git hash-object --stdin -w
+  git cat-file -s 3fa0
+  echo -n "Hello, World" | git hash-object --stdin -w
+  git cat-file -s 1856
+  clear
+  git hash-object "Hello World"
+  git hash-object Hello5.txt
+  git cat-file -p fc028
+  git hash-object Hello5.txt -w
+  git status
+  git restore Hello4.txt
+  clear
+  git hash-object Hello5.txt
+  git hash-object Hello5.txt
+  git hash-object Hello5.txt -w
+  git statys
+  git status
+  clear
+  git cat-file -p fc028
+  clear
+  git log -2
+  git show 22b7
+  clear
+  git cat-file -p 22b7
+  git cat-file -p 7a3a0
+  git cat-file -p 13cf1c12b7d
+  clear
+  git add .
+  git status
+  git commit -m "Deleted Hello1 and Hello 2 Files"
+  git cat-file -p 701a6b9
+  git cat-file -p d2d92
+  git cat-file -p 7a3a0
+  clear
+  git cat-file -p 22b717aff6
+  git cat-file -t 22b717aff6
+  git cat-file -p 7a3a0
+  clear
+  git log -1
+  git cat-file -p 701a
+  git cat-file -t 22b717aff6
+  git cat-file -p 22b717aff6
+  git cat-file -p 3b43
+  clear
+  history > Day1-2.txt

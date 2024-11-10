@@ -1,0 +1,146 @@
+cd /d/git_oct2024/
+clear
+git status
+git status
+rm Day2.txt.bak 
+clear
+git status
+git add .
+git status
+git status
+clear
+git status
+git commit -m "Added History for 2 days and git commit tree walking"
+clear
+git lo
+git log
+clear
+git cat-file -p f1f29
+git cat-file -p d823d7
+clear
+echo "Understanding standard ways of working with Marriage analogy" > standar_wow.txt
+git status
+git add Hello2.txt 
+git status
+git restore --staged Hello2.txt
+git status
+git add Hello2.txt
+echo "Appending some more contents to Helllo2" >> Hello2.txt
+clear
+git status
+git ls-files
+clear
+git diff Hello2.txt
+clear
+git add standar_wow.txt
+git status
+cat Hello2.txt
+git commit -m "Added standard_wow and Hello2.txt"
+clear
+git cat-file -p 862e5c0
+cat-file -p 75ae9
+git cat-file -p 75ae9
+cat Hello2.txt
+git cat-file -p 3fa0d4b98
+git add Hello2.txt 
+git commit -m "Updated contents"
+git cat-file -p 9febb1d
+git cat-file -p 01f1be6
+git cat-file -p b4563d4a
+git log -2
+git cat-file -p 862e5
+git cat-file -p 75ae
+clear
+git log -2
+git cat-file -p 862e5c
+git cat-file -p f1f2
+clear
+git log -1
+git cat-file -p 9febb
+git cat-file -p 01f1
+clear
+cd /d/temp2
+git status
+cd ../git_oct2024/
+git status
+echo "Understanding staging area" > staging_area.txt
+clear
+git status
+git ls-files
+git restore git_commit_tree_walk.png 
+clear
+git ls-files
+git status
+clear
+git add staging_area.txt 
+git ls-files
+git restore staging_area.txt 
+git ls-files
+git status
+git restore --staged staging_area.txt 
+git ls-files
+git status
+clear
+git add .
+git status
+git ls-files
+clear
+echo "Hashing keys in Index" | git hash-object --stdin
+echo "Hashing keys in Index" > hashing.txt
+git status
+git add hashing.txt 
+git status
+git status
+git status
+git add .
+clear
+git ls-files
+clear
+git commit -m "Added Hashing and updated tree walk"
+git cat-file -p
+clear
+git log -1 --oneline
+git cat-file -p ea165ca
+git cat-file -p f438ea48
+clear
+git status
+echo "Hello Git Deep Dive Day 3!" | git hash-object --stdin
+echo "Hello Git Deep Dive Day 3!" | git hash-object --stdin -w
+git status
+clear
+git log -1
+git cat-file -p ea16
+git cat-file -p f438e
+clear
+git cat-file -p f438e
+echo "Hello Git Deep Dive Day 3!" | git hash-object --stdin
+git cat-file -p f438e > ../git_tree.txt
+cat ../git_tree.txt 
+vim ../git_tree.txt 
+vim ../git_tree.txt 
+clear
+cat ../git_tree.txt 
+git cat-file -p f438e
+clear
+git cat-file -p f438e 
+git cat-file -p f438e | git mktree
+cat ../git_tree.txt | git mktree
+git cat-file -p 9a8e
+clear
+git status
+git read-tree 9a8e5ccd114ba5d67f465084f088c8bfbb2c2fd1
+git status
+echo "Hello Git Deep Dive Day 3!" > Mohini.txt
+git status
+git status
+git add .
+git status
+clear
+git commit -m "Added Deep Dive Day3 file represented Mohini.txt"
+git cat-file -p 3cd3346
+git cat-file -p 9a8e5ccd114ba5d67f465084f088c8bfbb2c2fd1
+clear
+git cat-file -p 9a8e5ccd114ba5d67f465084f088c8bfbb2c2fd1
+git ls-files
+clear
+history > Day3.txt
