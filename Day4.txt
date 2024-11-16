@@ -1,0 +1,57 @@
+clear
+cd test2
+cd ../test2
+ls .git/refs/heads/
+cat .git/HEAD 
+vim .git/HEAD
+echo "My First File" > first.text
+git add .
+git commit -m "My First Commit"
+ls .git/refs/heads/
+clear
+cd /d/git_oct2024/
+cat .git/HEAD 
+git log -1
+echo "Created test file in master2 branch" > test-file.txt
+git add .
+git status
+git commit -m "Created test file"
+clear
+cat .git/refs/heads/master
+git log -1
+git switch master
+cat .git/HEAD
+git log -1
+cat .git/refs/heads/master2
+clear
+git branch
+git status
+echo "Added sample" > sample.txt
+git status
+git add .
+git status
+git reset --hard
+clear
+git status
+git status
+clear
+git status
+git reset --hard
+clear
+git status
+git status
+git status
+clear
+git commit -m "Created branch 4"
+clear
+git log -1
+git cat-file -p 0fff
+git switch master
+git log -1
+git cat-file aea4
+git cat-file -p aea4
+git cat-file -p e0d5
+clear
+git status
+git commit -m "testing commit"
+history > Day4.txt
