@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.experimental.agentEnabled": true,
+    "github.copilot.chat.planning.enabled": true,
+    "github.copilot.chat.edits.enabled": true,
+    "github.copilot.chat.terminalContext.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true
+}
