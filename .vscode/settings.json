@@ -1,0 +1,11 @@
+{
+    // GitHub Copilot Chat Settings
+    // Note: Some settings are experimental and may change in future versions
+    // Check https://docs.github.com/en/copilot for the latest documentation
+    
+    "github.copilot.chat.experimental.agentEnabled": true,
+    "github.copilot.chat.planning.enabled": true,
+    "github.copilot.chat.edits.enabled": true,
+    "github.copilot.chat.terminalContext.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true
+}
