@@ -45,10 +45,14 @@ After opening this repository in VSCode:
 ## Requirements
 
 - **GitHub Copilot Subscription** - Active GitHub Copilot license
-- **VSCode Version** - VS Code 1.80 or later recommended
+- **VSCode Version** - VS Code 1.85 or later recommended (released November 2023 or newer)
+  - Some experimental features may require the latest stable version
+  - To check your version: Help → About
 - **Extensions**:
   - GitHub Copilot (required)
   - GitHub Copilot Chat (required)
+
+**Note**: The settings in this repository use experimental features that may change in future versions. Always refer to the [official GitHub Copilot documentation](https://docs.github.com/en/copilot) for the most up-to-date information.
 
 ## Troubleshooting
 
